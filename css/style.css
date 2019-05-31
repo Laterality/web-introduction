@@ -1,0 +1,36 @@
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+}
+.content-wrapper {
+    border: 1px solid skyblue;
+    padding: 12px 24px;
+}
+
+.best-movie-table {
+    border-collapse: collapse;
+}
+
+.best-movie-table img {
+    height: 200px;
+}
+
+.best-movie-table td,
+.best-movie-table th {
+    border: 1px solid black;
+    word-break: keep-all;
+    padding: 8px 16px;
+}
+
+.input-group-name {
+    display: table;
+    width: 100%;
+}
+.input-group-name label {
+    display: table-cell;
+    width: 40px;
+}
+.input-group-name #visitor-name {
+    display: table-cell;
+    width: 100%;
+}

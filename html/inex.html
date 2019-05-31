@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>자기소개</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="content-wrapper intro">
+                <h1>자기소개</h1>
+                <ul>
+                    <li>이름: Ethan</li>
+                    <li>사는 곳: 강동구</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                        veaniam, quis nostrud exercitation ulla
+                        mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                        officia deserunt mollit anim id est laborum.</li>
+                </ul>
+            </div>
+            <div class="content-wrapper">
+                <h1>인생 영화 BEST5</h1>
+                <table class="best-movie-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">순위</td>
+                            <th scope="col">제목</th>
+                            <th scope="col">포스터</th>
+                            <th scope="col">줄거리</th>
+                            <th scope="col">바로가기</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="movie-table-row">
+                            <td>1</td>
+                            <td>인터스텔라</td>
+                            <td class="img-cell"><img src="../images/interstellar.jpg"
+                                    alt="인터스텔라"></td>
+                            <td class="story-cell">세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다.
+                                지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다.
+                                이때 시공간에 불가사의한 틈이 열리고, 남은 자들에게는 이 곳을 탐험해 인류를 구해야 하는 임무가 지워진다.
+                                사랑하는 가족들을 뒤로 한 채 인류라는 더 큰 가족을 위해, 그들은 이제 희망을 찾아 우주로 간다.
+                                그리고 우린 답을 찾을 것이다. 늘 그랬듯이…</td>
+                            <td><a
+                                    href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=45290">클릭</a></td>
+                        </tr>
+                        <tr class="movie-table-row">
+                            <td>2</td>
+                            <td>인셉션</td>
+                            <td class="img-cell"><img src="../images/inception.jpg" alt="인셉션"></td>
+                            <td class="story-cell">드림머신이라는 기계로 타인의 꿈과 접속해 생각을 빼낼 수 있는 미래사회. ‘돔
+                                코브’(레오나르도 디카프리오)는 생각을 지키는 특수보안요원이면서 또한 최고의 실력으로 생각을 훔치는 도둑이다.
+                                우연한
+                                사고로 국제적인 수배자가 된 그는 기업간의 전쟁 덕에 모든 것을 되찾을 수 있는 기회를 얻게 된다. 하지만 임무는
+                                머릿속의
+                                정보를 훔쳐내는 것이 아니라, 반대로 머릿속에 정보를 입력시켜야 하는 것! 그는 ‘인셉션’이라 불리는 이 작전을
+                                성공시키기
+                                위해 최강의 팀을 조직한다. 불가능에 가까운 게임, 하지만 반드시 이겨야만 한다!</td>
+                            <td><a
+                                    href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=52515">클릭</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="content-wrapper visitor-book">
+                <h1>방명록</h1>
+                <fieldset>
+                    <form>
+                        <div class="input-group-name">
+                            <label for="visitor-name">이름: </label>
+                            <input type="text" name="name" id="visitor-name">
+                        </div>
+                        <label>본인 취향 영화</label>
+                        <div>
+                            <input type="radio" name="movie-preference" id="movie-pref-1">
+                            <label for="movie-pref-1">영화1</label>
+                            <input type="radio" name="movie-preference" id="movie-pref-2">
+                            <label for="movie-pref-2">영화2</label>
+                        </div>
+                        <button type="button" class="btn btn-primary">등록</button>
+                        <button type="reset" class="btn btn-primary">취소</button>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

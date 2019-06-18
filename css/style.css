@@ -24,7 +24,6 @@
 
 .input-group-name {
     display: table;
-    width: 100%;
 }
 .input-group-name label {
     display: table-cell;
@@ -32,5 +31,17 @@
 }
 .input-group-name #visitor-name {
     display: table-cell;
+    width: 5rem;
+}
+
+.input-group-comment {
+    display: inline-block;
+}
+
+#comment-content {
     width: 100%;
+}
+
+.comments {
+    list-style: none;
 }

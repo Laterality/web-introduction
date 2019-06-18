@@ -75,21 +75,23 @@
                 <h1>방명록</h1>
                 <fieldset>
                     <form>
-                        <div class="input-group-name">
-                            <label for="visitor-name">이름: </label>
+                        <div class="input-group-name mb-3">
+                            <label for="visitor-name">이름</label>
                             <input type="text" name="name" id="visitor-name">
                         </div>
-                        <label>본인 취향 영화</label>
+                        <textarea name="comment-content" id="comment-content" cols="30" rows="4"></textarea>
                         <div>
-                            <input type="radio" name="movie-preference" id="movie-pref-1">
+                            <label>본인 취향 영화</label>
+                            <input type="radio" name="movie-preference" id="movie-pref-1" value="영화1">
                             <label for="movie-pref-1">영화1</label>
-                            <input type="radio" name="movie-preference" id="movie-pref-2">
+                            <input type="radio" name="movie-preference" id="movie-pref-2" value="영화2">
                             <label for="movie-pref-2">영화2</label>
                         </div>
-                        <button type="button" class="btn btn-primary">등록</button>
+                        <button type="button" class="btn btn-primary btn-submit">등록</button>
                         <button type="reset" class="btn btn-primary">취소</button>
                     </form>
                 </fieldset>
+                <ul class="comments"></ul>
             </div>
         </div>
 
@@ -102,5 +104,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+        <script src="../js/app.js"></script>
     </body>
 </html>
